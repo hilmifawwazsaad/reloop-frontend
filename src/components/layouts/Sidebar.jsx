@@ -26,7 +26,7 @@ const Sidebar = ({ userRole = 'user', userName = 'User', onLogout, onToggle }) =
             items: [
                 { id: 'beranda', icon: Home, text: 'Beranda', path: '/seller/' },
                 { id: 'lapor', icon: FileText, text: 'Lapor Pelanggaran', path: '/seller/report' },
-                { id: 'barang', icon: Package, text: 'Barang Saya', path: '/seller/product' },
+                { id: 'barang', icon: Package, text: 'Barang Saya', path: '/seller/products' },
                 { id: 'jual', icon: ShoppingBag, text: 'Jual Barang', path: '/seller/sell-product' }
             ]
         },
