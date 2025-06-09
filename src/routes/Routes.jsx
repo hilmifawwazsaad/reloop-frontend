@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
 import { ForbiddenPage, MaintenancePage, NotFoundPage, ServerErrorPage } from '../pages/common';
-import { HomePage, ProductDetailsPage, ViolationReportPage } from '../pages/user';
+import { HomePage, ViolationReportPage } from '../pages/user';
 import { LoginPage, RegisterPage } from "../pages/auth"
 
 const AppRoutes = () => {
@@ -15,7 +15,6 @@ const AppRoutes = () => {
 
             {/* User Pages */}
             <Route path="/" element={<HomePage />} />
-            <Route path="/item" element={<ProductDetailsPage />} />
             <Route path="/report" element={<ViolationReportPage />} />
 
             {/* Auth Pages */}
